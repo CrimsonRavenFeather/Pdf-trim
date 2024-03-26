@@ -28,10 +28,44 @@
   color: #61dafb;
 }
 
+/* Upload.js -------------------------------------------------------------------------------- */
+
+.custom_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+
+.pageBox {
+  height: 80vh;
+  overflow: auto; 
+}
+
+.page {
+  border: 1px solid black;
+  overflow: visible;
+}
+
+.react-pdf__Page__textContent{
+  display: none;
+}
+
+.react-pdf__Page{
+  display: inline-block;
+}
+
+.react-pdf__Page__annotations{
+  display: none;
+}
+
+/* ------------------------------------------------------------------------------------------ */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
